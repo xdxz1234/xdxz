@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-Compatible" content="Ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心动小镇</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: rgba(184, 184, 184, 0.356)
+        }
+        /* * {
+            border: 1px solid rgb(138, 122, 122);
+        } */
+        .flex{
+            display: flex;
+        }
+        .bs{
+            background-color: white;
+        }
+        .flex1{
+            flex: 1;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .row{
+            flex-direction: row;
+        }
+        .mgt8{
+            margin: 8px;/*外上下左右*/
+        }
+        .mgn8{
+            padding: px;/*内上下左右*/
+        }
+        .mgr8{
+            margin-left: 8px;/*左*/
+        }
+        .mgs8{
+            margin-top:8px;/*上*/
+        }
+        .mgx8{
+            margin-bottom: 8px;/*下*/
+        }
+        .dh{/*导航*/
+            padding: 10px 20px;
+            border-bottom: 1px solid rgb(190, 190, 190);
+            font-size: 14px;
+            color: #666;
+        }
+        .yy{/*阴影*/
+            box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+             rgb(0 0 0 / 14%) 0px 1px 1px 0px,rgb(0 0 0 /12%) 0px 1px 3px 0px;
+        }
+        .spjz{/*水平居中*/
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 100px; /* 或者其他高度 */
+        }
+
+
+    
+
+    </style>
+</head>
+<body class="flex">
+    <div class="flex flex1 column">
+        <div style="flex: 1; align-items: center;justify-content: center;" class="mgx8 mgs8 flex">
+        <div style="flex: 1; background-color: rgb(255, 255, 255); height: 10vh; " class="yy"> 1</div>
+        <div style="flex: 3; background-color: rgb(255, 255, 255); height: 8vh; " class="mgr8 yy spjz">心动小镇</div>
+        </div>  <!--标题-->
+
+        <div class="flex1 row yy" style="flex: 50;">
+            <div class="flex1 flex yy">
+                <div style="flex: 1;">
+                    <div class="column yy" style="background-color: rgb(255, 255, 255); height: 86vh;">
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                    </div>
+
+                </div>
+                <div style="flex: 3; background-color: rgb(255, 255, 255);" class="mgr8 yy">
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+
+</html>
